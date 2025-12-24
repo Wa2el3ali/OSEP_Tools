@@ -1,0 +1,6 @@
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\Inject\Inject\bin\x64\Release\Inject.exe.config
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\Inject\Inject\bin\x64\Release\Inject.exe
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\Inject\Inject\bin\x64\Release\Inject.pdb
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\Inject\Inject\obj\x64\Release\Inject.exe
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\Inject\Inject\obj\x64\Release\Inject.pdb
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\Inject\Inject\obj\x64\Release\Inject.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\Inject\Inject\bin\Release\Inject.exe.config
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\Inject\Inject\bin\Release\Inject.exe
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\Inject\Inject\bin\Release\Inject.pdb
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\Inject\Inject\obj\Release\Inject.exe
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\Inject\Inject\obj\Release\Inject.pdb

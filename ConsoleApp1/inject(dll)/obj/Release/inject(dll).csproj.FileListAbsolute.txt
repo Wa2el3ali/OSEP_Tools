@@ -1,0 +1,6 @@
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\inject(dll)\bin\Release\inject(dll).exe.config
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\inject(dll)\bin\Release\inject(dll).exe
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\inject(dll)\bin\Release\inject(dll).pdb
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\inject(dll)\obj\Release\inject(dll).exe
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\inject(dll)\obj\Release\inject(dll).pdb
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\inject(dll)\obj\Release\inject(dll).csprojResolveAssemblyReference.cache

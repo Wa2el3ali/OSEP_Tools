@@ -1,0 +1,6 @@
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.exe.config
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.exe
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.pdb
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.exe
+c:\users\wa2el\documents\visual studio 2015\Projects\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.pdb
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.csprojResolveAssemblyReference.cache

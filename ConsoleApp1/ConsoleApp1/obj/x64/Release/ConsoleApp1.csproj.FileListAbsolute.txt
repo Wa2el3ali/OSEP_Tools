@@ -1,0 +1,5 @@
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\ConsoleApp1\bin\x64\Release\ConsoleApp1.exe.config
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\ConsoleApp1\bin\x64\Release\ConsoleApp1.exe
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\ConsoleApp1\bin\x64\Release\ConsoleApp1.pdb
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\ConsoleApp1\obj\x64\Release\ConsoleApp1.exe
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\ConsoleApp1\obj\x64\Release\ConsoleApp1.pdb

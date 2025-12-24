@@ -1,0 +1,6 @@
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\hollow\bin\Release\hollow.exe.config
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\hollow\bin\Release\hollow.exe
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\hollow\bin\Release\hollow.pdb
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\hollow\obj\Release\hollow.csprojResolveAssemblyReference.cache
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\hollow\obj\Release\hollow.exe
+C:\Users\wa2el\Documents\Visual Studio 2015\Projects\ConsoleApp1\hollow\obj\Release\hollow.pdb
