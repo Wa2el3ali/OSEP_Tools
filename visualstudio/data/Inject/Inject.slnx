@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Inject/Inject.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="Debug|ARM64" Project="ARM64" />
+    <Build Solution="*|ARM64" Project="false" />
+  </Project>
+</Solution>

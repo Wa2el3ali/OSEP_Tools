@@ -7,4 +7,10 @@
   <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="90f72543-f014-4b96-a866-f6dcebc24aab">
     <Platform Solution="*|x64" Project="x64" />
   </Project>
+  <Project Path="Dll_Inject/Dll_Inject.csproj" Id="d14bad29-f712-4724-9728-1e74729f2fa6">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
+  <Project Path="Inject/Inject.csproj" Id="3806bb15-2fea-41c3-a3f2-8ec6f2c093aa">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
 </Solution>
