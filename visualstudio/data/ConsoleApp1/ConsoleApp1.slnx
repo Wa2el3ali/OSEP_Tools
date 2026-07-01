@@ -10,6 +10,9 @@
   <Project Path="Dll_Inject/Dll_Inject.csproj" Id="d14bad29-f712-4724-9728-1e74729f2fa6">
     <Platform Solution="Release|x64" Project="x64" />
   </Project>
+  <Project Path="Hollow/Hollow.csproj" Id="89feabae-1eb0-4730-ae4c-9cb53a885b60">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
   <Project Path="Inject/Inject.csproj" Id="3806bb15-2fea-41c3-a3f2-8ec6f2c093aa">
     <Platform Solution="Release|x64" Project="x64" />
   </Project>
