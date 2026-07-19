@@ -24,6 +24,9 @@
   <Project Path="Helper/Helper.csproj" Id="647f07cb-661a-4b37-8df5-022adeb575fe">
     <Platform Solution="Release|x64" Project="x64" />
   </Project>
+  <Project Path="Helper_VBA/Helper_VBA.csproj" Id="03711f0f-c3fd-4041-8d1c-0ed734cd088b">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
   <Project Path="Hollow/Hollow.csproj" Id="89feabae-1eb0-4730-ae4c-9cb53a885b60">
     <Platform Solution="Release|x64" Project="x64" />
   </Project>
