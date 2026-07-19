@@ -2,12 +2,26 @@
   <Configurations>
     <Platform Name="Any CPU" />
     <Platform Name="x64" />
+    <Platform Name="x86" />
   </Configurations>
   <Project Path="ClassLibrary1/ClassLibrary1.csproj" Id="78075a2f-e148-47c7-a195-089a00eca7d0" />
   <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="90f72543-f014-4b96-a866-f6dcebc24aab">
     <Platform Solution="*|x64" Project="x64" />
   </Project>
+  <Project Path="ConsoleApp1_encrypt/ConsoleApp1_encrypt.csproj" Id="9abffb5c-cb5e-4016-b825-e008f4c524b9">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
+  <Project Path="ConsoleApp1_encrypt_delay/ConsoleApp1_encrypt_delay.csproj" Id="0421b365-3bee-4f82-bb3a-24ae2fb7b1ec">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
+  <Project Path="ConsoleApp1_encrypt_delay_NonEmulApi/ConsoleApp1_encrypt_delay_NonEmulApi.csproj" Id="f77edf58-8b6b-4e1e-91df-bc952a03e7d1">
+    <Platform Solution="*|x86" Project="x86" />
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
   <Project Path="Dll_Inject/Dll_Inject.csproj" Id="d14bad29-f712-4724-9728-1e74729f2fa6">
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
+  <Project Path="Helper/Helper.csproj" Id="647f07cb-661a-4b37-8df5-022adeb575fe">
     <Platform Solution="Release|x64" Project="x64" />
   </Project>
   <Project Path="Hollow/Hollow.csproj" Id="89feabae-1eb0-4730-ae4c-9cb53a885b60">
